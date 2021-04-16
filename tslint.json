@@ -14,7 +14,7 @@
     "arrow-return-shorthand": true,
     "curly": true,
     "deprecation": {
-      "severity": "warning"
+      "severity":  "off"
     },
     "eofline": true,
     "import-blacklist": [
@@ -53,10 +53,10 @@
     ],
     "no-empty": false,
     "no-inferrable-types": [
-      true,
+      false,
       "ignore-params"
     ],
-    "no-non-null-assertion": true,
+    "no-non-null-assertion": false,
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,
     "no-var-requires": false,
@@ -83,7 +83,7 @@
       }
     },
     "typedef": [
-      true,
+      false,
       "call-signature"
     ],
     "typedef-whitespace": {
